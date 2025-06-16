@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 public class FileDemoIOStreams {
 	public static void main(String[] args) throws IOException {
 		FileReader reader = new FileReader(new File(
-				"C:\\Users\\ps924291.ttl\\OneDrive - TATA MOTORS LTD\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streams\\ioStreamsFiles\\demo.txt"));
+				"C:\\Users\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streams\\ioStreamsFiles\\demo.txt"));
 		BufferedReader br = new BufferedReader(reader);
 		String line = br.readLine();
 		while (line != null) {
