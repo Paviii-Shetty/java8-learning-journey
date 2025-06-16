@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 public class IOStreamsFileDemo {
 	public static void main(String[] args) throws IOException {
 		FileReader reader = new FileReader(new File(
-				"C:\\Users\\ps924291.ttl\\OneDrive - TATA MOTORS LTD\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streamAPI\\IOStreamFile\\demo.txt"));
+				"C:\\Users\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streamAPI\\IOStreamFile\\demo.txt"));
 		BufferedReader br = new BufferedReader(reader);
 		String line = br.readLine();
 		while (line != null) {
@@ -22,7 +22,7 @@ public class IOStreamsFileDemo {
 		}
 		br.close();
 		System.out.println("=====================================");
-		String filename = "C:\\Users\\ps924291.ttl\\OneDrive - TATA MOTORS LTD\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streamAPI\\IOStreamFile\\demo.txt";
+		String filename = "C:\\Desktop\\javaFeaturesSTS\\Java8Features\\src\\streamAPI\\IOStreamFile\\demo.txt";
 
 		List<String> lines = new ArrayList<>();
 		try (Stream<String> streamLine = Files.lines(Paths.get(filename))) {
