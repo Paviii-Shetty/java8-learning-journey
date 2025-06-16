@@ -1,6 +1,0 @@
-hello
-Hi,
-how are you?
-please 
-learn java 8
-very important for clearing interviews
